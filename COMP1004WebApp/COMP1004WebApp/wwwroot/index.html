@@ -1,0 +1,133 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <!--Step 1. add bootstrap-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/LoginDesign.css" />
+    <!--Option 1: jQuery and Bootstrap Bundel (includes Popper)-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+    <title>The CSN</title>
+</head>
+<body>
+
+
+    <!-- code for main login page below-->
+
+    <div class="login_container">
+        <footer class="login_footer">
+            <div class="container">
+                <span>
+                    COMP1004 - Harry Ormandy Login and Accounts System
+                </span>
+            </div>
+        </footer>
+        <navbar class="login_navbar">
+
+            Welcome To the CSN!
+
+        </navbar>
+        <sidebar class="login_sidebar">
+            <img class="login_logo" src="img/CSNLogo.jpg" alt="logo" />
+
+        </sidebar>
+
+        <div class="login_form_container">
+
+            <form>
+                <h3><img class="login_logo" src="img/CSNLogoWhite.jpg" alt="logo" /></h3>
+                <inputs class="login_form_input">
+                    <input type="text" id="Login_Username_Input" placeholder="username" />
+                    <input type="password" id="Password_Username_Input" placeholder="password" />
+                </inputs>
+            </form>
+            <button class="button_for_login_confirm">Enter</button>
+            <button class="button_for_login_CreateAccount">Create An Account</button>
+            <button class="button_for_login_ResetPassword">Forgot Your Password?</button>
+        </div>
+
+    </div>
+
+
+
+
+    <!--  Registration page listed below -->
+
+    <div class="Registration_form_container">
+
+        <form id="RegForm">
+            <h3><img class="Registration_logo" src="img/CSNLogoWhite.jpg" alt="logo" /></h3>
+            <inputs class="Registration_form_input">
+                <input id="UsernameInput" type="text" placeholder="username" />
+                <input list="Key_Stage_Year_Of_Study" class="CheckingInputForKeyStage" placeholder="Key Stage/Year of Study">
+                <datalist id="Key_Stage_Year_Of_Study">
+                    <option value="Key Stage 3">
+                    <option value="Key Stage 4">
+                    <option value="Key Stage 5">
+                    <option value="University Stage 1">
+                    <option value="University Stage 2">
+                    <option value="University Stage 3">
+                    <option value="University Postgraduate">
+                    <option value="University PhD student">
+                </datalist>
+
+                <input list="security_question_options" class="CheckingInputForSecQuesOption" placeholder="security question option">
+                <datalist id="security_question_options">
+                    <option value="In what city were you born?">
+                    <option value="What is the name of your favorite pet?">
+                    <option value="What is your mother's maiden name?">
+                </datalist>
+
+                <input id="Security_Question_answer_Input" type="password" placeholder="Security Question Answer" />
+                <input id="password_input" type="password" placeholder="password" />
+                <input id="Re-Enter_Password_input" type="password" placeholder="Re-enter password" />
+
+            </inputs>
+        </form>
+        <button class="button_for_Registration_confirm">Submit</button>
+    </div>
+
+    <!--  Reset password form below-->
+
+    <div class="ResetPassword_form_container">
+
+        <form>
+            <h3><img class="Reset_logo" src="img/CSNLogoWhite.jpg" alt="logo" /></h3>
+            <inputs class="Reset_password_form_input">
+                <input type="text" placeholder="username" />
+                <p>*****security question will be displayed here*****</p>
+                <input type="password" placeholder="security question answer" />
+            </inputs>
+        </form>
+        <button class="button_for_showing_question">show my security question</button>
+        <button class="button_for_confirming_security_question_answer">submit answer</button>
+    </div>
+
+    <!-- Enter new password form below-->
+
+    <div class="ResetPW_form_container">
+
+        <form>
+            <h3><img class="ResetPW_logo" src="img/CSNLogoWhite.jpg" alt="logo" /></h3>
+            <inputs class="Reset_PW_form_input">
+                <input type="password" placeholder="password" />
+                <input type="password" placeholder="Re-enter password" />
+            </inputs>
+        </form>
+        <button class="button_for_ResetPW_confirm">Submit</button>
+    </div>
+
+
+
+
+
+
+
+    <script src="js/JavaScript.js"></script>
+</body>
+</html>

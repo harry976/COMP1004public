@@ -1,0 +1,137 @@
+﻿div.login_container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.login_footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 6%;
+    line-height: 60px; /* Vertically center the text there */
+    background-color: #062d64;
+    color: #dcd8d5;
+    text-align: center;
+}
+
+.login_navbar {
+    position: absolute;
+    top: 0;
+    left: 10%;
+    width: 90%;
+    height: 10%;
+    background-color: #062d64;
+    color: #dcd8d5;
+    text-align: center;
+    line-height: 100px;
+}
+.login_logo{
+    
+    width: 100%;
+}
+
+.login_sidebar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 96%;
+    width: 10%;
+    background-color: #062d64;
+
+}
+
+.login_form_container{
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    
+
+}
+
+.login_form_input{
+    position: relative;
+    left: 13%;
+}
+
+.login_container h3{
+    margin: 0;
+}
+
+
+.button_for_login_confirm, .button_for_login_CreateAccount, .button_for_login_ResetPassword {
+    position: absolute;
+    border: 0px;
+    margin: 10px;
+}
+
+.button_for_login_confirm {  
+    width: 20%;    
+    left: 40%;  
+}
+
+.button_for_login_CreateAccount{ 
+    width:30%;   
+    height: 5%;
+}
+
+.button_for_login_ResetPassword{  
+    left:70%;
+    width: 40%;
+    height: 5%;
+}
+
+.Registration_logo{
+    width: 100%;
+}
+
+.Registration_form_container {
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    display: none;
+    flex-direction: column;
+    
+}
+
+.Registration_form_input{
+    display: flex;
+    flex-direction: column;
+    border: 0px
+    
+}
+
+.button_for_Registration_confirm{
+    width: 20%;
+    margin: 10px 0 0 200px;
+    border: 0px;
+
+}
+
+.Reset_logo{
+    width: 100%;
+}
+
+.ResetPassword_form_container {
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    display: none;
+    flex-direction: column;
+}
+
+.button_for_showing_question, .button_for_confirming_security_question_answer{
+    border: 0px;
+}
+
+.ResetPW_form_container {
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    display: none;
+    flex-direction: column;
+}
