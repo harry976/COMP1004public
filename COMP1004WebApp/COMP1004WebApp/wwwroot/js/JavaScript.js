@@ -136,7 +136,6 @@ const ChecksOnRegistration = function () {
     if (RequirementsFlag == 0) {
         const ToBeStored = [KeyStageToBeChecked.value, SecurityQuestionOptionToBeChecked.value, SecurityQuestionAnswerToBeChecked.value, PasswordToBeChecked.value]
         localStorage.setItem(UserNameToBeChecked.value, ToBeStored);
-        console.log(localStorage.jeff.KeyStageYearOfStudy)
         
         return alert("Thank you. your account has been created");
 
